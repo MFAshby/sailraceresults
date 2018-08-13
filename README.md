@@ -1,0 +1,1 @@
+Simple frontend component for displaying race results

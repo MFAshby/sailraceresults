@@ -1,0 +1,53 @@
+.App {
+  margin: 2em;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  border-color: #020 transparent #020 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  color: #333; /* Lighten up font color */
+  font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+  width: 640px;
+  border-collapse:
+          collapse; border-spacing: 0;
+}
+
+td, th {
+    border: 1px solid #CCC;
+    height: 30px;
+} /* Make cells a bit taller */
+
+th {
+  background: #F3F3F3; /* Light grey background */
+  font-weight: bold; /* Make sure they're bold */
+}
+
+td {
+  background: #FAFAFA; /* Lighter grey background */
+  text-align: center; /* Center our text */
+}
