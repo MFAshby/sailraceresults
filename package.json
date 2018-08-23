@@ -12,6 +12,5 @@
     "build": "npx react-scripts build",
     "test": "npx react-scripts test --env=jsdom",
     "eject": "npx react-scripts eject"
-  },
-  "homepage" : "https://ysc.nsupdate.info/results"
+  }
 }

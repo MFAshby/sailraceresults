@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 
-const API_SERVER = "https://ysc.nsupdate.info/api"
+const API_SERVER = process.env.REACT_APP_API_SERVER 
+//"https://ysc.nsupdate.info/api"
 
 async function fetchJson(target) {
     let response = await fetch(target)
